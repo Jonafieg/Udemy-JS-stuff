@@ -13,8 +13,18 @@
     margin-right: auto;
 }
 
-h2, p {
+img {
+    border-radius: 0 0 0.5rem 0.5rem;
+    box-shadow: 2px 2px 5px #d1cdcd;
+}
+
+
+h1, h2, p {
     line-height: 1.5;
+}
+
+h1 {
+    text-align: center;
 }
 
 #buttonSection {
@@ -31,6 +41,7 @@ button {
     border: none;
     padding: 12px;
     box-shadow: 2px 2px 5px #d1cdcd;
+    margin-top: 1.3rem;
 }
 
 #red {
