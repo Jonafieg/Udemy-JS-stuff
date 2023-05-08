@@ -1,15 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Hello, world!</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="" />
-  <link rel="stylesheet" type="text/css" href="style.css" />
-  <link rel="icon" href="favicon.png">
+    <meta charset="UTF-8" />
+    <title>Table Tennis Score Keeper</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="icon" href="favicon.png">
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <script src="app.js"></script>
+    <img src="./images/pingponghero.jpg" alt="Table Tennis Icon" />
+    <h2>Table Tennis Score Keeper</h2>
+    <div class="scoreKeeping">
+        <h1 id ="score"></h1>
+        <p>Use the buttons below to keep score.</p>
+        <p><strong>Playing To </strong> <select name="scoreLimitSelect" id="scoreLimitSelect">
+            <option value="five">5</option>
+            <option value="seven">7</option>
+            <option value="nine">9</option>
+            <option value="eleven">11</option>
+        </select></p>
+    </div>
+    <div id="buttonSection">
+        <button>+1 Player One</button> 
+        <button>Reset</button>
+        <button>+1 Player Two</button>
+    <script src="app.js"></script>
+    </div>
 </body>
 </html>
