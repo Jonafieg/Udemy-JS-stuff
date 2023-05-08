@@ -56,3 +56,9 @@ button {
     border-radius: 0 14px 14px 0; 
     margin-left: -4px;
 }
+
+#Winner {
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    font-weight: bold;
+}
